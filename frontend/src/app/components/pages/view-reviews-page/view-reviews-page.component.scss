@@ -43,6 +43,10 @@
 
 }
 
-.isNotAdmin ul li:nth-child(n+5) {
+.isNotAdmin ul li {
     display: none;
+}
+
+.isNotAdmin ul li:nth-last-child(-n+4) {
+    display: list-item;
 }
